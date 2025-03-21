@@ -1,0 +1,18 @@
+编辑cron ：
+crontab -e
+
+给脚本加权限：
+chmod +x /root/tgsign/tgsign.py
+
+
+添加cron表达式：
+10 0 * * * cd /root/tgsign && /usr/bin/python3 /root/tgsign/tgsign.py
+每天0点10分运行
+cd /root/tgsign：先进入文件夹
+ /usr/bin/python3：python的路径
+/root/tgsign/tgsign.py：脚本的位置
+
+
+cron表达式：
+几分 几点 * * *
+每天几点几分运行
