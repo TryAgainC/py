@@ -2,3 +2,7 @@ https://hostloc.com/thread-864401-1-1.html
 
 windows:
 https://blog.csdn.net/lanjiangyu/article/details/140558118
+
+
+如果telethon安装不了，强制安装：
+pip install telethon --break-system-packages
